@@ -1,0 +1,72 @@
+{
+  "uid" : "1adebc0bf0cd3d42",
+  "name" : "test_case_01",
+  "fullName" : "allure_test.test_case_01",
+  "historyId" : "109bf61999b152e127786d9db95ff323",
+  "time" : {
+    "start" : 1546786153668,
+    "stop" : 1546786153724,
+    "duration" : 56
+  },
+  "description" : "\n    用例描述：Test case 01\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：Test case 01\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "@allure.feature('test_module_01')\n    @allure.story('test_story_01')\n    def test_case_01():\n        \"\"\"\n        用例描述：Test case 01\n        \"\"\"\n>       assert 0\nE       assert 0\n\nsuites/allure_test.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "zytdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "thread",
+    "value" : "6085-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_test"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_case_01"
+  }, {
+    "name" : "package",
+    "value" : "allure_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1adebc0bf0cd3d42.json",
+  "parameterValues" : [ ]
+}
