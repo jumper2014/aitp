@@ -8,6 +8,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    # 为你的 URL 取名能使你在 Django 的任意地方唯一地引用它，尤其是在模板中。
     # ex: /polls/
     path('', views.index, name='index'),
     # ex: /polls/5/

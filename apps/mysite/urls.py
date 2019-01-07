@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
+    # 按顺序依次匹配列表中的项，直到找到匹配的项。
+    # 这些准则不会匹配 GET 和 POST 参数或域名
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]

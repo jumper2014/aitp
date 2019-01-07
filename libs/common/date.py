@@ -5,13 +5,15 @@
 
 import time
 
-def get_format_time_string():
+
+def get_formatted_time_string():
     """
     获得形如2016-1010-120000这样的年月日时分秒字符串
     :return:
     """
     current = time.localtime()
     return time.strftime("%Y-%m%d-%H%M%S", current)
+
 
 def get_time_string():
     """
