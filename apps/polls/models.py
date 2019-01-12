@@ -6,8 +6,9 @@ from django.db import models
 from django.utils import timezone
 
 
-
 class Question(models.Model):
+    # max_length 参数。这个参数的用处不止于用来定义数据库结构，
+    # 也用于验证数据，我们稍后将会看到这方面的内容。
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
 

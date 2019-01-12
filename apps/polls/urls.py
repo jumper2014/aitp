@@ -6,6 +6,8 @@
 from django.urls import path
 
 from . import views
+# app_name 设置命名空间
+app_name = 'polls'
 
 urlpatterns = [
     # 为你的 URL 取名能使你在 Django 的任意地方唯一地引用它，尤其是在模板中。
