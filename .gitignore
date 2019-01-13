@@ -13,7 +13,7 @@ reports/xml
 .Python
 build/
 develop-eggs/
-dist/
+apps/mysite/static/bootstrap/
 downloads/
 eggs/
 .eggs/
