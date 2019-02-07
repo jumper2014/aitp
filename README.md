@@ -10,13 +10,12 @@
 
 
 ### todo
-- sqlite to mysql
+- sqlite to mysql (done)
 - 引入bootstrap (done)
+- 数据构造 faker (done)
 - 应用dashboard
 - 数据管理
 - 趋势图
-- 数据构造 faker
-- oracle数据读取
 - 接口测试执行
 - 其他指标测试执行和结果数据收集
 - 结果数据录入和展示
