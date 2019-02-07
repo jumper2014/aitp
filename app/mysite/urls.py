@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+
 urlpatterns = [
     # 按顺序依次匹配列表中的项，直到找到匹配的项。
     # 这些准则不会匹配 GET 和 POST 参数或域名
