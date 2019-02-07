@@ -1,0 +1,2 @@
+- 切换数据库后：python manage.py migrate
+- 运行服务器 python manage.py runserver 0:8000

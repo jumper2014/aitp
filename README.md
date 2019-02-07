@@ -11,7 +11,8 @@
 
 ### todo
 - sqlite to mysql
-- 引入bootstrap
+- 引入bootstrap (done)
+- 应用dashboard
 - 数据管理
 - 趋势图
 - 数据构造 faker
